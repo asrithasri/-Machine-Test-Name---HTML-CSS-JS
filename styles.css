@@ -1,0 +1,371 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.tpara{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+/* Navbar Section */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.logo img{
+    height: 32px;
+}
+
+.register-btn{
+    background-color: #007bff;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.login-btn{
+    background-color: white;
+    color: #007bff;
+    padding: 0.5rem 1.4rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: #007bff 2px solid;
+    cursor: pointer;
+}
+  
+.hero {
+    height: 570px;
+    background: url('./assets/hero.jpeg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+.hero .heroSection{
+    height: 100%;
+    padding: 0;
+    background-image: url('./assets/bg.png');
+}
+.hero h1 {
+    margin-top: 0;
+    padding-top: 380px;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding : 10px 26px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Section 1 */
+.section-one {
+    height: max-content;
+    background-color: #f1f1f1;
+    padding: 10px 15px;
+}
+.section-one .container{
+    background-color: #fff; 
+   
+}
+
+.section-one .container .heading{
+    width: 50%;
+}
+.section-one .container h2{
+    margin-left: 28px; 
+    padding-top: 50px;
+  
+}
+.section-one .container button{
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.features {
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.feature{ 
+    width: 40vw;
+    padding: 20px ;
+    flex: 1; 
+    margin: 0 ;
+    align-items: center;
+    
+}
+
+.feature p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Section 2 */
+.section-two {
+    padding: 30px 20px;
+}
+
+.section-two .top {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-two h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-two .top > p {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+/* Grid layout for the content */
+.section-two .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+    align-items: start; 
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-text h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.content-text p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* Image is placed in the second column */
+.content-image {
+    display: flex;
+    justify-content: flex-end; /* Ensures image stays to the right */
+}
+
+.content-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+/* Section 3 */
+.section-three {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card {
+    background-color: white;
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.section4 .form-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.section4 h1 {
+    /* font-size: 32px; */
+    margin-bottom: 20px;
+}
+
+.section4 p {
+    /* font-size: 16px; */
+    color: #666;
+}
+
+.section4 .form-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    width: 420px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section4 h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.section4 .form-box input {
+    width: 89.6%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.section4 .input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4 .input-group input {
+    margin:  10px;
+    width: 48%;
+}
+
+.section4 .form-box button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.section4 .form-box button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-left {
+    display: flex;
+   
+}
+
+ footer .logo {
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+footer .footer-center {
+    display: flex;
+}
+
+footer .footer-section {
+    margin-right: 40px;
+}
+
+footer .footer-section h4 {
+    margin-bottom: 10px;
+}
+
+footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-section ul li {
+    margin-bottom: 5px;
+}
+
+footer .footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-right button {
+    padding: 8px 20px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+footer .social-media img {
+    background-color: #ccc;
+    width: 24px;
+    margin: 0  10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
