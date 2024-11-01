@@ -1,5 +1,6 @@
-**Objective :
+# Objective :
 To assess your ability to translate a design from Figma into a functional HTML/CSS webpage.
+
 Requirements:
 •  Create a single HTML file (index.html).
 •  Create a single CSS file (styles.css)  link the created css file with the HTML file
